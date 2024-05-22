@@ -14,7 +14,7 @@ const Work = () => {
     <div id="Portfolio" className='max-w-[1100px] sm:mx-auto mx-8 mt-12 grid grid-cols-2 gap-4 glass p-6'>
 
         <div className='col-span-2 my-4'>
-          <h1 className='text-4xl mb-4 text-gray-300'>My Work</h1>
+          <h1 className='text-4xl mb-4 text-gray-300 mx-auto'>My Work</h1>
         </div>
 
         {projects.map((project) => (

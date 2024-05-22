@@ -22,12 +22,12 @@ const Contact = () => {
               <h2 className='mb-4 text-2xl font-bold text-gray-400'>Let's Connect</h2>
               <form action="https://getform.io/f/qblovwda" method="POST">
                   <div className='space-y-4 mb-6'>
-                    <input type="text" id="name" name="name" placeholder="Your Name ...." className='w-full border-gray-400 py-2 px-4 border rounded-xl'></input>
-                    <input type="email" id="email" name="email" placeholder="Your Email ...." className='w-full border-gray-400 py-2 px-4 border rounded-xl'></input>
-                    <textarea type="textarea" name="message" rows="5" placeholder="Your Message ...." className='w-full border-gray-400 py-2 px-4 border rounded-xl'></textarea>
+                    <input type="text" id="name" name="name" placeholder="Your Name ...." className='w-full border-button py-2 px-4 border rounded-xl' required></input>
+                    <input type="email" id="email" name="email" placeholder="Your Email ...." className='w-full border-button py-2 px-4 border rounded-xl' required></input>
+                    <textarea type="textarea" name="message" rows="5" placeholder="Your Message ...." className='w-full border-button py-2 px-4 border rounded-xl' required></textarea>
                   </div>
                   <div>
-                      <button type="submit" className='w-full rounded-2xl bg-button text-white px-4 py-2 max-w-md hover:bg-teal-600 transition'>Send</button>
+                      <button type="submit" className='w-full rounded-2xl bg-button text-white px-4 py-2 max-w-md hover:bg-hover transition'>Send</button>
                   </div>
               </form>
             </div>

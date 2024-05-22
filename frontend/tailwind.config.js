@@ -15,7 +15,11 @@ export default {
         // background:{
         //   gradient: 'linear-gradient(135deg, #06081c 0%, #007282 100%)', 
         // },
-        button: '#00897B',
+        button: '#9393dc',
+        hover: '#794CC3',
+        menu: {
+          gradient:'radial-gradient(ellipse, #1d004e, #030709 ',
+        },
       },
     },
   },
