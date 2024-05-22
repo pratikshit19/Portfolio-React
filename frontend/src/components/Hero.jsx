@@ -6,7 +6,7 @@ import Contact from './Contact';
 const Hero = () => {
   return (
     <div id="Hero" className='relative grid sm:grid-cols-3 gap-8 max-w-[1100px] md:h-[70vh] sm:mx-auto mx-8 py-2 z-[-1]'>
-      <div className='glass px-7 py-6 col-span-2 my-auto max-w-[700px] h-[330px] sm:h-[330px]'>
+      <div className='glass px-7 py-6 col-span-2 my-auto max-w-[700px] h-[360px] sm:h-[330px]'>
         <h1 className='text-white text-4xl sm:text-3xl lg:text-6xl font-extrabold'>
           <p className='mb-4 text-button'>I'm a</p>
           <TypeAnimation
