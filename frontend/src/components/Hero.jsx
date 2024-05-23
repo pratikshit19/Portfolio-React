@@ -53,8 +53,8 @@ const Hero = () => {
 
         </div>
       </div>
-      <div className="absolute top-[140px] right-[0px] w-[480px] h-[480px] left-1/2 transform -translate-x-1/2 mt-[70px] md:top-0 md:mt-0 md:left-auto md:transform-none md:w-[380px] md:h-[380px] lg:w-[580px] lg:h-[580px] lg:top-[-80px] z-[-1]">
-        <img src={notebookL} alt="Hero" className="object-cover overflow-hidden" />
+      <div className="absolute top-[140px] right-[0px] w-[400px] h-[400px] left-1/2 transform -translate-x-1/2 mt-[70px] md:top-0 md:mt-0 md:left-auto md:transform-none md:w-[380px] md:h-[380px] lg:w-[580px] lg:h-[580px] lg:top-[-80px] z-[-1]">
+        <img src={notebookL} alt="Hero" className="overflow-hidden" />
       </div>
     </div>
   );
